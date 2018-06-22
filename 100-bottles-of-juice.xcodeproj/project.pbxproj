@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660DC51E20DDBBC100B5BCDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DC51D20DDBBC100B5BCDB /* AppDelegate.m */; };
+		660DC52120DDBBC100B5BCDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DC52020DDBBC100B5BCDB /* ViewController.m */; };
+		660DC52420DDBBC100B5BCDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660DC52220DDBBC100B5BCDB /* Main.storyboard */; };
+		660DC52620DDBBC300B5BCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660DC52520DDBBC300B5BCDB /* Assets.xcassets */; };
+		660DC52920DDBBC300B5BCDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660DC52720DDBBC300B5BCDB /* LaunchScreen.storyboard */; };
+		660DC52C20DDBBC300B5BCDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DC52B20DDBBC300B5BCDB /* main.m */; };
+		660DC53620DDBBC300B5BCDB /* _00_bottles_of_juiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DC53520DDBBC300B5BCDB /* _00_bottles_of_juiceTests.m */; };
+		660DC54120DDBBC300B5BCDB /* _00_bottles_of_juiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DC54020DDBBC300B5BCDB /* _00_bottles_of_juiceUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		660DC53220DDBBC300B5BCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660DC51120DDBBC100B5BCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660DC51820DDBBC100B5BCDB;
+			remoteInfo = "100-bottles-of-juice";
+		};
+		660DC53D20DDBBC300B5BCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660DC51120DDBBC100B5BCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660DC51820DDBBC100B5BCDB;
+			remoteInfo = "100-bottles-of-juice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660DC51920DDBBC100B5BCDB /* 100-bottles-of-juice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "100-bottles-of-juice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660DC51C20DDBBC100B5BCDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		660DC51D20DDBBC100B5BCDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		660DC51F20DDBBC100B5BCDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		660DC52020DDBBC100B5BCDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		660DC52320DDBBC100B5BCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660DC52520DDBBC300B5BCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		660DC52820DDBBC300B5BCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		660DC52A20DDBBC300B5BCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660DC52B20DDBBC300B5BCDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660DC53120DDBBC300B5BCDB /* 100-bottles-of-juiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "100-bottles-of-juiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660DC53520DDBBC300B5BCDB /* _00_bottles_of_juiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _00_bottles_of_juiceTests.m; sourceTree = "<group>"; };
+		660DC53720DDBBC300B5BCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660DC53C20DDBBC300B5BCDB /* 100-bottles-of-juiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "100-bottles-of-juiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660DC54020DDBBC300B5BCDB /* _00_bottles_of_juiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _00_bottles_of_juiceUITests.m; sourceTree = "<group>"; };
+		660DC54220DDBBC300B5BCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660DC51620DDBBC100B5BCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660DC52E20DDBBC300B5BCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660DC53920DDBBC300B5BCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660DC51020DDBBC100B5BCDB = {
+			isa = PBXGroup;
+			children = (
+				660DC51B20DDBBC100B5BCDB /* 100-bottles-of-juice */,
+				660DC53420DDBBC300B5BCDB /* 100-bottles-of-juiceTests */,
+				660DC53F20DDBBC300B5BCDB /* 100-bottles-of-juiceUITests */,
+				660DC51A20DDBBC100B5BCDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660DC51A20DDBBC100B5BCDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660DC51920DDBBC100B5BCDB /* 100-bottles-of-juice.app */,
+				660DC53120DDBBC300B5BCDB /* 100-bottles-of-juiceTests.xctest */,
+				660DC53C20DDBBC300B5BCDB /* 100-bottles-of-juiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660DC51B20DDBBC100B5BCDB /* 100-bottles-of-juice */ = {
+			isa = PBXGroup;
+			children = (
+				660DC51C20DDBBC100B5BCDB /* AppDelegate.h */,
+				660DC51D20DDBBC100B5BCDB /* AppDelegate.m */,
+				660DC51F20DDBBC100B5BCDB /* ViewController.h */,
+				660DC52020DDBBC100B5BCDB /* ViewController.m */,
+				660DC52220DDBBC100B5BCDB /* Main.storyboard */,
+				660DC52520DDBBC300B5BCDB /* Assets.xcassets */,
+				660DC52720DDBBC300B5BCDB /* LaunchScreen.storyboard */,
+				660DC52A20DDBBC300B5BCDB /* Info.plist */,
+				660DC52B20DDBBC300B5BCDB /* main.m */,
+			);
+			path = "100-bottles-of-juice";
+			sourceTree = "<group>";
+		};
+		660DC53420DDBBC300B5BCDB /* 100-bottles-of-juiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				660DC53520DDBBC300B5BCDB /* _00_bottles_of_juiceTests.m */,
+				660DC53720DDBBC300B5BCDB /* Info.plist */,
+			);
+			path = "100-bottles-of-juiceTests";
+			sourceTree = "<group>";
+		};
+		660DC53F20DDBBC300B5BCDB /* 100-bottles-of-juiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				660DC54020DDBBC300B5BCDB /* _00_bottles_of_juiceUITests.m */,
+				660DC54220DDBBC300B5BCDB /* Info.plist */,
+			);
+			path = "100-bottles-of-juiceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660DC51820DDBBC100B5BCDB /* 100-bottles-of-juice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660DC54520DDBBC300B5BCDB /* Build configuration list for PBXNativeTarget "100-bottles-of-juice" */;
+			buildPhases = (
+				660DC51520DDBBC100B5BCDB /* Sources */,
+				660DC51620DDBBC100B5BCDB /* Frameworks */,
+				660DC51720DDBBC100B5BCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "100-bottles-of-juice";
+			productName = "100-bottles-of-juice";
+			productReference = 660DC51920DDBBC100B5BCDB /* 100-bottles-of-juice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		660DC53020DDBBC300B5BCDB /* 100-bottles-of-juiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660DC54820DDBBC300B5BCDB /* Build configuration list for PBXNativeTarget "100-bottles-of-juiceTests" */;
+			buildPhases = (
+				660DC52D20DDBBC300B5BCDB /* Sources */,
+				660DC52E20DDBBC300B5BCDB /* Frameworks */,
+				660DC52F20DDBBC300B5BCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660DC53320DDBBC300B5BCDB /* PBXTargetDependency */,
+			);
+			name = "100-bottles-of-juiceTests";
+			productName = "100-bottles-of-juiceTests";
+			productReference = 660DC53120DDBBC300B5BCDB /* 100-bottles-of-juiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		660DC53B20DDBBC300B5BCDB /* 100-bottles-of-juiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660DC54B20DDBBC300B5BCDB /* Build configuration list for PBXNativeTarget "100-bottles-of-juiceUITests" */;
+			buildPhases = (
+				660DC53820DDBBC300B5BCDB /* Sources */,
+				660DC53920DDBBC300B5BCDB /* Frameworks */,
+				660DC53A20DDBBC300B5BCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660DC53E20DDBBC300B5BCDB /* PBXTargetDependency */,
+			);
+			name = "100-bottles-of-juiceUITests";
+			productName = "100-bottles-of-juiceUITests";
+			productReference = 660DC53C20DDBBC300B5BCDB /* 100-bottles-of-juiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660DC51120DDBBC100B5BCDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jesús Alejandro Romero Zárate";
+				TargetAttributes = {
+					660DC51820DDBBC100B5BCDB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					660DC53020DDBBC300B5BCDB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 660DC51820DDBBC100B5BCDB;
+					};
+					660DC53B20DDBBC300B5BCDB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 660DC51820DDBBC100B5BCDB;
+					};
+				};
+			};
+			buildConfigurationList = 660DC51420DDBBC100B5BCDB /* Build configuration list for PBXProject "100-bottles-of-juice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660DC51020DDBBC100B5BCDB;
+			productRefGroup = 660DC51A20DDBBC100B5BCDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660DC51820DDBBC100B5BCDB /* 100-bottles-of-juice */,
+				660DC53020DDBBC300B5BCDB /* 100-bottles-of-juiceTests */,
+				660DC53B20DDBBC300B5BCDB /* 100-bottles-of-juiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660DC51720DDBBC100B5BCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660DC52920DDBBC300B5BCDB /* LaunchScreen.storyboard in Resources */,
+				660DC52620DDBBC300B5BCDB /* Assets.xcassets in Resources */,
+				660DC52420DDBBC100B5BCDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660DC52F20DDBBC300B5BCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660DC53A20DDBBC300B5BCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660DC51520DDBBC100B5BCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660DC52120DDBBC100B5BCDB /* ViewController.m in Sources */,
+				660DC52C20DDBBC300B5BCDB /* main.m in Sources */,
+				660DC51E20DDBBC100B5BCDB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660DC52D20DDBBC300B5BCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660DC53620DDBBC300B5BCDB /* _00_bottles_of_juiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660DC53820DDBBC300B5BCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660DC54120DDBBC300B5BCDB /* _00_bottles_of_juiceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		660DC53320DDBBC300B5BCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660DC51820DDBBC100B5BCDB /* 100-bottles-of-juice */;
+			targetProxy = 660DC53220DDBBC300B5BCDB /* PBXContainerItemProxy */;
+		};
+		660DC53E20DDBBC300B5BCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660DC51820DDBBC100B5BCDB /* 100-bottles-of-juice */;
+			targetProxy = 660DC53D20DDBBC300B5BCDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		660DC52220DDBBC100B5BCDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660DC52320DDBBC100B5BCDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		660DC52720DDBBC300B5BCDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660DC52820DDBBC300B5BCDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660DC54320DDBBC300B5BCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		660DC54420DDBBC300B5BCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660DC54620DDBBC300B5BCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "100-bottles-of-juice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.-00-bottles-of-juice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		660DC54720DDBBC300B5BCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "100-bottles-of-juice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.-00-bottles-of-juice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		660DC54920DDBBC300B5BCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "100-bottles-of-juiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.-00-bottles-of-juiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/100-bottles-of-juice.app/100-bottles-of-juice";
+			};
+			name = Debug;
+		};
+		660DC54A20DDBBC300B5BCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "100-bottles-of-juiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.-00-bottles-of-juiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/100-bottles-of-juice.app/100-bottles-of-juice";
+			};
+			name = Release;
+		};
+		660DC54C20DDBBC300B5BCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "100-bottles-of-juiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.-00-bottles-of-juiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "100-bottles-of-juice";
+			};
+			name = Debug;
+		};
+		660DC54D20DDBBC300B5BCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "100-bottles-of-juiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.-00-bottles-of-juiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "100-bottles-of-juice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660DC51420DDBBC100B5BCDB /* Build configuration list for PBXProject "100-bottles-of-juice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660DC54320DDBBC300B5BCDB /* Debug */,
+				660DC54420DDBBC300B5BCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660DC54520DDBBC300B5BCDB /* Build configuration list for PBXNativeTarget "100-bottles-of-juice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660DC54620DDBBC300B5BCDB /* Debug */,
+				660DC54720DDBBC300B5BCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660DC54820DDBBC300B5BCDB /* Build configuration list for PBXNativeTarget "100-bottles-of-juiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660DC54920DDBBC300B5BCDB /* Debug */,
+				660DC54A20DDBBC300B5BCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660DC54B20DDBBC300B5BCDB /* Build configuration list for PBXNativeTarget "100-bottles-of-juiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660DC54C20DDBBC300B5BCDB /* Debug */,
+				660DC54D20DDBBC300B5BCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660DC51120DDBBC100B5BCDB /* Project object */;
+}
