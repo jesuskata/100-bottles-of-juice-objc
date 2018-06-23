@@ -18,13 +18,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    int total = 99;
-    for (int i = 99; i >= 0; i--) {
+    int total = 100;
+    for (int i = 100; i >= 0; i--) {
         if (i == 0) {
-            NSLog(@"No more bottles of juice on the wall, no more bottles of juice. Go to the store and buy some more, %d bottles of juice on the wall.", total);
+            NSLog(@"\nNo more bottles of juice on the wall, no more bottles of juice.\nGo to the store and buy some more, %d bottles of juice on the wall.", total);
         }
         if (i != 0) {
-            NSLog(@"%d bottles of juice on the wall, %d bottles of juice. Take one down and pass it around, %d bottles of juice on the wall.", i, i, i - 1);
+            NSLog(@"\n%d bottles of juice on the wall, %d bottles of juice.\nTake one down and pass it around, %d bottles of juice on the wall.", i, i, i - 1);
         }
     }
 }
